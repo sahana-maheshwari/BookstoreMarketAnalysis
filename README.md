@@ -22,7 +22,7 @@ A client wanted to understand where a new book product could land. The analysis 
 
 ## Deliverables
 
-- [`BAN_B_Group_4.ipynb`](BAN_B_Group_4.ipynb) — the full Python EDA notebook.
+- [`bookstore_market_analysis.ipynb`](bookstore_market_analysis.ipynb) — the full Python EDA notebook.
 
 ## Stack
 
