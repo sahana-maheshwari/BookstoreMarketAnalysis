@@ -20,6 +20,12 @@ A client wanted to understand where a new book product could land. The analysis 
   - Bivariate — correlation heatmap, scatter plots, and linear regression.
   - Multivariate — encoded scatter plots (e.g. square footage by store, colored by cafe presence; store count by ZIP, colored by income and sized by population).
 
+## Results
+
+![Diverging bar chart of correlation coefficients between population, median income, bookstore square footage, and events hosted, all under 0.3 in magnitude](correlation_analysis.png)
+
+None of the surface-level variables (population, income, store size, events hosted) correlate strongly with each other — the strongest pair (population vs. events, +0.29) is still weak. This ruled out simple demographic targeting and pushed the analysis toward the early-chapter-section flag as the more useful segmentation variable.
+
 ## Deliverables
 
 - [`bookstore_market_analysis.ipynb`](bookstore_market_analysis.ipynb) — the full Python EDA notebook.
